@@ -1,0 +1,87 @@
+
+nav ul {
+    list-style-type: none; 
+    margin: 0;           
+    padding: 0;           
+    display: flex;        
+}
+
+nav ul li {
+    margin-right: 20px;   
+}
+
+nav ul li a {
+    color: rgb(247, 197, 126);         
+    text-decoration: none; 
+    padding: 15px 15px;    
+    transition: 0.3s; 
+}
+.nav {
+    background-color:#be1806;
+    height: 35px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    border-radius: 5px; 
+}
+.background {
+background-image: url(Averin.webp);
+background-size: cover; 
+    background-position: center; 
+    height: 100%; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 30px;
+    color: #8B0000;
+}
+.head {
+    color: #977c45;
+}
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    padding: 1px;
+    background-color: #310205;
+    color: #b8b4b4;
+}
+.active {
+    color: black;
+    background-color:  rgb(236, 159, 101);
+    border-radius: 5px; 
+}
+.button-link {
+            display: inline-block; 
+            padding: 7px 13px;
+            background-color: #f0aa64;
+            color: #583b20;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px; 
+            font-size: small;
+            margin-bottom: 5px;
+        }
+
+        .button-link:hover {
+            background-color:rgb(241, 77, 36);
+        }
+.toanother {
+    text-decoration: none;
+    color:#490101;
+}
+
+.go {
+    text-decoration: none;
+    color: #ecc287;
+}
+.photo {
+    float:center;
+    height: 700px;
+    width: 1200px;
+    margin-bottom: 2rem;
+}
+.img {
+    float:center;
+    width: 1100px;
+}
+.img2{
+    width: 1100px;
+}
